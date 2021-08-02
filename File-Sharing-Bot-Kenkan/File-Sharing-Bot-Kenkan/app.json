@@ -1,0 +1,60 @@
+
+{
+  "name": "File Sharing Bot",
+  "description": "berbagi file pos penyimpanan bot dan dapat diakses dengan tautan khusus",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/kenkannih/File-Sharing-Bot",
+  "logo": "https://telegra.ph/file/a112fce4e23d859badcd4.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Dapatkan di  @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Isi dengan id kamu, format angka",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Dapatkan di my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Dapatkan di my.telegram.org",
+      "value": ""
+    },
+    "CHANNEL": {
+      "description": "Masukan Nama atau Username channel atau group tanpa tanda @",
+      "required": true,
+      "value": "musikkuchannel"  
+    },
+    "DISABLE_CHANNEL_BUTTON": {
+      "description": "Isi dengan True atau False",
+      "value": "False"
+    },
+    "CHANNEL_ID": {
+      "description": "Isi dengan channel id yang mau di jadikan tempat penyimpanan channel juga bisa ptivat",
+      "value": ""
+    },
+    "FORCE_SUB_CHANNEL": {
+      "description": "Isi id channel wajib sub, kalau mau nonaktifkan isi aja 0",
+      "value": ""
+    },
+    "CUSTOM_CAPTION": {
+      "description": "Isi dengan caption bebas apa aja",
+      "value": ""
+    },
+    "START_MESSAGE": {
+      "description": "Optional: pesan sambutan isi dengan format HTML seperti contoh",
+      "value": "Halo {firstname}\n\nSaya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus."
+    },
+    "ADMINS": {
+      "description": "Daftar user_id dari Admin, mereka hanya dapat membuat link",
+      "value": "",
+      "required": false
+    }
+  }
+}
